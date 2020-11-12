@@ -1,0 +1,6 @@
+<h2><%= @flat.name %></h2>
+<p><%= @flat.address %></p>
+<p><%= @flat.description %></p>
+<h4>Guests: <%= @flat.number_of_guest %></h4>
+<h4>Price: <%= @flat.price_per_night %></h4>
+<div class="btn btn_edit"><%= link_to 'Edit the flat', edit_flat_path  %></div> | <div class="btn btn_back"><%= link_to 'Back to the flats', flats_path  %></div>
